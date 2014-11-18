@@ -2,18 +2,128 @@ body{
 	font-family: 'Open Sans', sans-serif;
 }
 
-@media(max-width: 1500px) and (min-width: 769px){
+@media(max-width: 1920px) and (min-width: 810px){
 	h1{
 		text-align: center;
 		font-size: 5em;
-		color: #A04141;
+		color: #FFFFFF;
+		background-color: #1E4C32;
+		opacity: 0.6;
 	}
+
+	.container{
+		width: 100%;
+		margin: 4% 1% 0% 1%;
+		list-style-type: none;
+	}
+
+	.container li{
+		width: 45%;
+		height: 35em;
+		margin-left: 1em;
+		margin-bottom: 1em;
+		background-color: #f0f0f0;
+		float: left;
+		transition: 1s;
+	}
+
+
+	.container li h2{
+		font-size: 2em;
+		text-align: center;
+		margin: 30% auto;
+		color: #1E4C32;
+	}
+
+
 }
 
-@media(max-width: 768px) and (min-width: 100px){
+@media(max-width: 810px) and (min-width: 500px){
+	h1{
+		text-align: center;
+		font-size: 3em;
+		color: #FFFFFF;
+		background-color: #1E4C32;
+		opacity: 0.6;
+	}
+
+	.container{
+		width: 100%;
+		margin: 4% 1% 0% 1%;
+		list-style-type: none;
+	}
+
+	.container li{
+		width: 45%;
+		height: 25em;
+		margin-left: 1em;
+		margin-bottom: 1em;
+		background-color: #f0f0f0;
+		float: left;
+		transition: 1s;
+	}
+
+
+	.container li h2{
+		font-size: 1.5em;
+		text-align: center;
+		margin: 50% auto;
+		color: #1E4C32;
+	}
+
+}
+
+@media(max-width: 500px) and (min-width: 50px){
 	h1{
 		text-align: center;
 		font-size: 2em;
-		color: #A04141;
+		color: #FFFFFF;
+		background-color: #1E4C32;
+		opacity: 0.6;
 	}
+
+	.container{
+		width: 100%;
+		margin: 4% 1% 0% 1%;
+		list-style-type: none;
+	}
+
+	.container li{
+		width: 75%;
+		height: 15em;
+		margin-left: 1em;
+		margin-bottom: 1em;
+		background-color: #f0f0f0;
+		float: left;
+		transition: 1s;
+	}
+
+
+	.container li h2{
+		font-size: 1em;
+		text-align: center;
+		margin: 30% auto;
+		color: #1E4C32;
+	}
+
+}
+
+
+
+
+#a:hover{
+	background-color: #C8B169;
+	border-radius: 1%;
+}
+
+#b:hover{
+	background-color: #F27B7B;
+}
+
+#c:hover{
+	background-color: #000000;
+}
+
+#d:hover{
+	background-color: #C0EFCB;
 }
